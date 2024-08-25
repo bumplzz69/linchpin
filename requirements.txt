@@ -1,4 +1,4 @@
-setuptools>=35.0
+setuptools>=70.0.0
 pyopenssl
 boto>=2.40.0
 boto3
@@ -11,10 +11,14 @@ shade>=1.30.0
 naked
 Cerberus>=1.2
 tinydb
-requests>=2.21.0
+requests>=2.31.0
 ipaddress>=1.0.17
 PyYAML>=3.12
-jinja2>=2.10
+jinja2>=3.1.4
 configparser>=3.5.0
 openshift>=0.6
 pyasn1>=0.1.9
+certifi>=2024.7.4 # not directly required, pinned by Snyk to avoid a vulnerability
+cryptography>=42.0.8 # not directly required, pinned by Snyk to avoid a vulnerability
+idna>=3.7 # not directly required, pinned by Snyk to avoid a vulnerability
+rsa>=4.7 # not directly required, pinned by Snyk to avoid a vulnerability
