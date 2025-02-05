@@ -1,4 +1,4 @@
-setuptools>=35.0
+setuptools>=70.0.0
 pyopenssl
 boto>=2.40.0
 boto3
